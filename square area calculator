@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ReadFromConsole
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, please give me a number");//Greating
+            double a = double.Parse(Console.ReadLine());//reading the value
+            double result = a * a;//storing and calculating the value 
+            Console.WriteLine("Your result is:" +result);//printing the value
+            //This is my first self made code lol :D
+            
+        }
+    }
+}
